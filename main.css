@@ -44,11 +44,80 @@ h1 {
     padding-right: 450px;
     align-content: center;
 }
+#bg2 {
+    flex-direction: column;
+    height: 400px;
+    padding-left:450px;
+    padding-right: 450px;
+    align-content: center;
+    gap:15px
+}
+#bg2 > * {
+    flex:1;
+}
+#bg2 > p {
 
+    max-height: 85px;
+    line-height: 3;
+    font-family: "Roboto", serif;
+    color: #1F2937;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+#bg3 {
+    height: 400px;
+    padding-left:450px;
+    padding-right: 450px;
+    align-content: center;
+    display: block;
+}
+
+#bg4 {
+    height: 300px;
+    padding-left:450px;
+    padding-right: 450px;
+    align-content: center;
+}
+.heading {
+    height: 40px;
+    padding-left:450px;
+    padding-right: 450px;
+
+}
+#headerlogo {
+    font-family: "Roboto", serif;
+    color: #E5E7EB;
+    font-size: 24px;
+}
+
+.examples {
+    display:flex;
+    gap:20px
+}
 #bg1 * {
     flex: 1;
     justify-content: center;
 
+}
+.heading * {
+    flex: 1;
+    justify-content: center;
+
+}
+.headerlink {
+    align-items: end;
+    justify-content: end;
+    gap: 12px;
+    display:flex;
+
+}
+
+.headerlink p {
+    flex: unset;
+    font-family: "Roboto", serif;
+    color: #E5E7EB;
+    font-size: 13px;
 }
 .darkbg {
     background-color: #1F2937;
@@ -60,4 +129,77 @@ h1 {
 
 .whitebg {
     background-color: white;
+}
+
+.displaypic {
+    width: 200px;
+    height: 200px;
+    border-color: darkslateblue;
+    border-width: 4px;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+.displayitem p {
+    text-align: center;
+    line-height: 40px;
+    font-family: "Roboto", serif;
+    color: #1F2937;
+    font-size: 18px;
+}
+.quote {
+    text-align: left;
+    font-style: italic;
+    font-family: "Roboto", serif;
+    color: #1F2937;
+    font-size: 50px;
+}
+
+.attr {
+    text-align: right;
+    font-family: "Roboto", serif;
+    color: #1F2937;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.cta {
+    display: flex;
+    background-color: dodgerblue;
+    flex: 1;
+    padding: 5%;
+    border-radius: 10px;
+    justify-content: space-between;
+
+}
+#ctabutton {
+    margin-top: 0;
+    border-width: 2px;
+    border-style: solid;
+    border-color: darkslateblue;
+}
+
+.leftcta {
+    font-family: "Roboto", serif;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+}
+#subcta {
+    font-family: "Roboto", serif;
+    color: white;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+#bg5 {
+    height:100px;
+    align-content: center;
+    justify-content: center;
+}
+
+#bg5 p {
+    text-align: center;
+    color: whitesmoke;
+    font-family: "Roboto", serif;
 }
